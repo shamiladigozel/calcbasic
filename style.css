@@ -1,0 +1,671 @@
+
+@media (min-width:1024px){
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+   
+    width: 1130px;
+    height: 950px;
+    margin: auto;
+    
+}
+main .layout{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #db828f;;
+    
+}
+.calcbody{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 370px;
+    height: 600px;
+    
+
+    
+}
+.resultbox{
+    height: 138px;
+    background-color: #212121;
+    overflow: hidden;
+    border-radius: 3px  3px 0 0;
+    
+}
+.resultbox .history{
+    display: block;
+    font-size: 18px;
+    line-height: 70px;
+    color: #d98192;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: right;
+    
+}
+.resultbox .answer{
+display: block;
+font-size: 50px;
+line-height: 70px;
+color: #ffffff;
+font-family: "Lato";
+font-weight: 300;
+text-align: right;
+}
+.calcbody .row2{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.row2 .faiz{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row2 .isare{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row2 .C{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row2 .bol{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.calcbody .row3{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.row3 .yeddi{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row3 .sekkiz{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row3 .doqquz{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row3 .vur{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #FFF;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.calcbody .row4{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.row4 .dord{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row4 .bes{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row4 .alti{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row4 .cix{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #FFF;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.calcbody .row5{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.row5 .bir{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row5 .iki{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row5 .uc{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row5 .topla{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #FFF;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.calcbody .row6{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.row6 .sifir{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row6 .vergul{
+    width: 100px;
+    height: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row6 .beraber{
+    width: 200px;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #FFF;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.calcbody .resultbox{
+    height: 40vh;
+    background-color: #212121;
+    overflow: hidden;
+}
+.resultbox .history{
+    margin-top: 5vh;
+    display: block;
+    font-size: 18px;
+    line-height: 70px;
+    color: #d98192;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: right;
+    
+}
+.resultbox .answer{
+margin-top: 8vh;
+display: block;
+font-size: 50px;
+line-height: 70px;
+color: #ffffff;
+font-family: "Lato";
+font-weight: 300;
+text-align: right;
+}
+.calcbody .row2{
+    height:12vh ;
+    display: flex;
+}
+.row2 .faiz{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row2 .isare{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row2 .C{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row2 .bol{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.calcbody .row3{
+    height:12vh ;
+    display: flex;
+}
+.row3 .yeddi{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row3 .sekkiz{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row3 .doqquz{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row3 .vur{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.calcbody .row4{
+    height:12vh ;
+    display: flex;
+}
+.row4 .dord{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row4 .bes{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row4 .alti{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row4 .cix{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.calcbody .row5{
+    height:12vh ;
+    display: flex;
+}
+.row5 .bir{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row5 .iki{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row5 .uc{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row5 .topla{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #894ed9;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+.calcbody .row6{
+    height:12vh ;
+    display: flex;
+}
+.row6 .sifir{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 0 0 0 3px ;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row6 .vergul{
+    width: 25vw;
+    height: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #212121;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
+.row6 .beraber{
+    width: 50vw;
+    height: 100%;
+    border: none;
+    border-radius: 0 0 3px 0 ;
+    background-color: #e62e89;
+    cursor: pointer;
+    outline: none;
+    font-size: 23px;
+    line-height: 70px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: center;
+}
